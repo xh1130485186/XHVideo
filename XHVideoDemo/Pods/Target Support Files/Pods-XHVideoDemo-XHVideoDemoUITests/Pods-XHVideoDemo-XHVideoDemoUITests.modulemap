@@ -1,0 +1,6 @@
+framework module Pods_XHVideoDemo_XHVideoDemoUITests {
+  umbrella header "Pods-XHVideoDemo-XHVideoDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

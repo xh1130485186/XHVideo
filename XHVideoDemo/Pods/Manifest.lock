@@ -1,0 +1,16 @@
+PODS:
+  - XHLoading (0.0.1)
+
+DEPENDENCIES:
+  - XHLoading
+
+SPEC REPOS:
+  trunk:
+    - XHLoading
+
+SPEC CHECKSUMS:
+  XHLoading: fd21c0c9f8d445b14abbd2181f43545caa67a44d
+
+PODFILE CHECKSUM: 339765107014b025de45503c144e4b4fef55f41c
+
+COCOAPODS: 1.8.4

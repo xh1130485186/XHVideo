@@ -1,0 +1,6 @@
+framework module XHLoading {
+  umbrella header "XHLoading-umbrella.h"
+
+  export *
+  module * { export * }
+}
