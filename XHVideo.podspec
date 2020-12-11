@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "XHVideo"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "XHVideo，视频播放或者录制。"
   
   spec.description  = <<-DESC
