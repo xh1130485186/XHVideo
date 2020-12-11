@@ -53,6 +53,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIImage *placeholderImage;
 @property (nonatomic, strong, readonly) UIImageView *placeholderImageView;
 
+/// 是否正在播放
+@property (nonatomic, assign, readonly, getter=isPlaying) BOOL playing;
 
 - (void)play;
 - (void)playWithSeekTime:(NSTimeInterval)seekTime;

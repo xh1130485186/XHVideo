@@ -92,7 +92,7 @@
     if (@available(iOS 11.0, *)) {
         isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;
     }
-    CGFloat height = isPhoneX?88:64;
+    CGFloat height = isPhoneX?88:44;
     
     _topView = [[UIView alloc] init];
     _topView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
@@ -157,7 +157,7 @@
     _saveButton.clipsToBounds = YES;
     _saveButton.backgroundColor = [UIColor clearColor];
     _saveButton.center = CGPointMake(CGRectGetWidth(self.view.frame)*0.5, CGRectGetHeight(self.view.frame)-80);
-    [_saveButton setImage:XHVideoImage(@"icon_btn_sure.png") forState:UIControlStateNormal];
+    [_saveButton setImage:XHVideoImage(@"icon_btn_sure") forState:UIControlStateNormal];
     [_saveButton addTarget:self action:@selector(saveAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_saveButton];
     
@@ -176,7 +176,7 @@
     _returnButton.clipsToBounds = YES;
     _returnButton.hidden = YES;;
     _returnButton.center = CGPointMake(CGRectGetWidth(self.view.frame)*0.5, CGRectGetHeight(self.view.frame)-80);
-    [_returnButton setImage:XHVideoImage(@"icon_btn_back.png") forState:UIControlStateNormal];
+    [_returnButton setImage:XHVideoImage(@"icon_btn_back") forState:UIControlStateNormal];
     [_returnButton addTarget:self action:@selector(returnAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_returnButton];
     

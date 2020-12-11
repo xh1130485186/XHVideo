@@ -383,6 +383,10 @@
     return _placeholderImageView;
 }
 
+- (BOOL)isPlaying {
+    return self.playStatus == XHVideoPlayStatusWaitingBuff||self.playStatus == XHVideoPlayStatusPlayIng;
+}
+
 #pragma mark - dealloc
 
 - (void)dealloc {
